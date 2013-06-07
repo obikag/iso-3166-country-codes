@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<iso_codes xml:lang="en">
+	<code_entry name="AALAND ISLANDS" alpha2="AX" alpha3="ALA" number="248">
+	<code_entry name="AFGHANISTAN" alpha2="AF" alpha3="AFG" number="4">
+	<code_entry name="ALBANIA" alpha2="AL" alpha3="ALB" number="8">
+	<code_entry name="ALGERIA" alpha2="DZ" alpha3="DZA" number="12">
+	<code_entry name="AMERICAN SAMOA" alpha2="AS" alpha3="ASM" number="16">
+	<code_entry name="ANDORRA" alpha2="AD" alpha3="AND" number="20">
+	<code_entry name="ANGOLA" alpha2="AO" alpha3="AGO" number="24">
+	<code_entry name="ANGUILLA" alpha2="AI" alpha3="AIA" number="660">
+	<code_entry name="ANTARCTICA" alpha2="AQ" alpha3="ATA" number="10">
+	<code_entry name="ANTIGUA AND BARBUDA" alpha2="AG" alpha3="ATG" number="28">
+	<code_entry name="ARGENTINA" alpha2="AR" alpha3="ARG" number="32">
+	<code_entry name="ARMENIA" alpha2="AM" alpha3="ARM" number="51">
+	<code_entry name="ARUBA" alpha2="AW" alpha3="ABW" number="533">
+	<code_entry name="AUSTRALIA" alpha2="AU" alpha3="AUS" number="36">
+	<code_entry name="AUSTRIA" alpha2="AT" alpha3="AUT" number="40">
+	<code_entry name="AZERBAIJAN" alpha2="AZ" alpha3="AZE" number="31">
+	<code_entry name="BAHAMAS" alpha2="BS" alpha3="BHS" number="44">
+	<code_entry name="BAHRAIN" alpha2="BH" alpha3="BHR" number="48">
+	<code_entry name="BANGLADESH" alpha2="BD" alpha3="BGD" number="50">
+	<code_entry name="BARBADOS" alpha2="BB" alpha3="BRB" number="52">
+	<code_entry name="BELARUS" alpha2="BY" alpha3="BLR" number="112">
+	<code_entry name="BELGIUM" alpha2="BE" alpha3="BEL" number="56">
+	<code_entry name="BELIZE" alpha2="BZ" alpha3="BLZ" number="84">
+	<code_entry name="BENIN" alpha2="BJ" alpha3="BEN" number="204">
+	<code_entry name="BERMUDA" alpha2="BM" alpha3="BMU" number="60">
+	<code_entry name="BHUTAN" alpha2="BT" alpha3="BTN" number="64">
+	<code_entry name="BOLIVIA" alpha2="BO" alpha3="BOL" number="68">
+	<code_entry name="BOSNIA AND HERZEGOWINA" alpha2="BA" alpha3="BIH" number="70">
+	<code_entry name="BOTSWANA" alpha2="BW" alpha3="BWA" number="72">
+	<code_entry name="BOUVET ISLAND" alpha2="BV" alpha3="BVT" number="74">
+	<code_entry name="BRAZIL" alpha2="BR" alpha3="BRA" number="76">
+	<code_entry name="BRITISH INDIAN OCEAN TERRITORY" alpha2="IO" alpha3="IOT" number="86">
+	<code_entry name="BRUNEI DARUSSALAM" alpha2="BN" alpha3="BRN" number="96">
+	<code_entry name="BULGARIA" alpha2="BG" alpha3="BGR" number="100">
+	<code_entry name="BURKINA FASO" alpha2="BF" alpha3="BFA" number="854">
+	<code_entry name="BURUNDI" alpha2="BI" alpha3="BDI" number="108">
+	<code_entry name="CAMBODIA" alpha2="KH" alpha3="KHM" number="116">
+	<code_entry name="CAMEROON" alpha2="CM" alpha3="CMR" number="120">
+	<code_entry name="CANADA" alpha2="CA" alpha3="CAN" number="124">
+	<code_entry name="CAPE VERDE" alpha2="CV" alpha3="CPV" number="132">
+	<code_entry name="CAYMAN ISLANDS" alpha2="KY" alpha3="CYM" number="136">
+	<code_entry name="CENTRAL AFRICAN REPUBLIC" alpha2="CF" alpha3="CAF" number="140">
+	<code_entry name="CHAD" alpha2="TD" alpha3="TCD" number="148">
+	<code_entry name="CHILE" alpha2="CL" alpha3="CHL" number="152">
+	<code_entry name="CHINA" alpha2="CN" alpha3="CHN" number="156">
+	<code_entry name="CHRISTMAS ISLAND" alpha2="CX" alpha3="CXR" number="162">
+	<code_entry name="COCOS (KEELING) ISLANDS" alpha2="CC" alpha3="CCK" number="166">
+	<code_entry name="COLOMBIA" alpha2="CO" alpha3="COL" number="170">
+	<code_entry name="COMOROS" alpha2="KM" alpha3="COM" number="174">
+	<code_entry name="DEMOCRATIC REPUBLIC OF CONGO" alpha2="CD" alpha3="COD" number="180">
+	<code_entry name="REPUBLIC OF CONGO" alpha2="CG" alpha3="COG" number="178">
+	<code_entry name="COOK ISLANDS" alpha2="CK" alpha3="COK" number="184">
+	<code_entry name="COSTA RICA" alpha2="CR" alpha3="CRI" number="188">
+	<code_entry name="COTE D'IVOIRE" alpha2="CI" alpha3="CIV" number="384">
+	<code_entry name="CROATIA" alpha2="HR" alpha3="HRV" number="191">
+	<code_entry name="CUBA" alpha2="CU" alpha3="CUB" number="192">
+	<code_entry name="CYPRUS" alpha2="CY" alpha3="CYP" number="196">
+	<code_entry name="CZECH REPUBLIC" alpha2="CZ" alpha3="CZE" number="203">
+	<code_entry name="DENMARK" alpha2="DK" alpha3="DNK" number="208">
+	<code_entry name="DJIBOUTI" alpha2="DJ" alpha3="DJI" number="262">
+	<code_entry name="DOMINICA" alpha2="DM" alpha3="DMA" number="212">
+	<code_entry name="DOMINICAN REPUBLIC" alpha2="DO" alpha3="DOM" number="214">
+	<code_entry name="ECUADOR" alpha2="EC" alpha3="ECU" number="218">
+	<code_entry name="EGYPT" alpha2="EG" alpha3="EGY" number="818">
+	<code_entry name="EL SALVADOR" alpha2="SV" alpha3="SLV" number="222">
+	<code_entry name="EQUATORIAL GUINEA" alpha2="GQ" alpha3="GNQ" number="226">
+	<code_entry name="ERITREA" alpha2="ER" alpha3="ERI" number="232">
+	<code_entry name="ESTONIA" alpha2="EE" alpha3="EST" number="233">
+	<code_entry name="ETHIOPIA" alpha2="ET" alpha3="ETH" number="231">
+	<code_entry name="FALKLAND ISLANDS (MALVINAS)" alpha2="FK" alpha3="FLK" number="238">
+	<code_entry name="FAROE ISLANDS" alpha2="FO" alpha3="FRO" number="234">
+	<code_entry name="FIJI" alpha2="FJ" alpha3="FJI" number="242">
+	<code_entry name="FINLAND" alpha2="FI" alpha3="FIN" number="246">
+	<code_entry name="FRANCE" alpha2="FR" alpha3="FRA" number="250">
+	<code_entry name="FRENCH GUIANA" alpha2="GF" alpha3="GUF" number="254">
+	<code_entry name="FRENCH POLYNESIA" alpha2="PF" alpha3="PYF" number="258">
+	<code_entry name="FRENCH SOUTHERN TERRITORIES" alpha2="TF" alpha3="ATF" number="260">
+	<code_entry name="GABON" alpha2="GA" alpha3="GAB" number="266">
+	<code_entry name="GAMBIA" alpha2="GM" alpha3="GMB" number="270">
+	<code_entry name="GEORGIA" alpha2="GE" alpha3="GEO" number="268">
+	<code_entry name="GERMANY" alpha2="DE" alpha3="DEU" number="276">
+	<code_entry name="GHANA" alpha2="GH" alpha3="GHA" number="288">
+	<code_entry name="GIBRALTAR" alpha2="GI" alpha3="GIB" number="292">
+	<code_entry name="GREECE" alpha2="GR" alpha3="GRC" number="300">
+	<code_entry name="GREENLAND" alpha2="GL" alpha3="GRL" number="304">
+	<code_entry name="GRENADA" alpha2="GD" alpha3="GRD" number="308">
+	<code_entry name="GUADELOUPE" alpha2="GP" alpha3="GLP" number="312">
+	<code_entry name="GUAM" alpha2="GU" alpha3="GUM" number="316">
+	<code_entry name="GUATEMALA" alpha2="GT" alpha3="GTM" number="320">
+	<code_entry name="GUINEA" alpha2="GN" alpha3="GIN" number="324">
+	<code_entry name="GUINEA-BISSAU" alpha2="GW" alpha3="GNB" number="624">
+	<code_entry name="GUYANA" alpha2="GY" alpha3="GUY" number="328">
+	<code_entry name="HAITI" alpha2="HT" alpha3="HTI" number="332">
+	<code_entry name="HEARD AND MC DONALD ISLANDS" alpha2="HM" alpha3="HMD" number="334">
+	<code_entry name="HONDURAS" alpha2="HN" alpha3="HND" number="340">
+	<code_entry name="HONG KONG" alpha2="HK" alpha3="HKG" number="344">
+	<code_entry name="HUNGARY" alpha2="HU" alpha3="HUN" number="348">
+	<code_entry name="ICELAND" alpha2="IS" alpha3="ISL" number="352">
+	<code_entry name="INDIA" alpha2="IN" alpha3="IND" number="356">
+	<code_entry name="INDONESIA" alpha2="ID" alpha3="IDN" number="360">
+	<code_entry name="IRAN" alpha2="IR" alpha3="IRN" number="364">
+	<code_entry name="IRAQ" alpha2="IQ" alpha3="IRQ" number="368">
+	<code_entry name="IRELAND" alpha2="IE" alpha3="IRL" number="372">
+	<code_entry name="ISRAEL" alpha2="IL" alpha3="ISR" number="376">
+	<code_entry name="ITALY" alpha2="IT" alpha3="ITA" number="380">
+	<code_entry name="JAMAICA" alpha2="JM" alpha3="JAM" number="388">
+	<code_entry name="JAPAN" alpha2="JP" alpha3="JPN" number="392">
+	<code_entry name="JORDAN" alpha2="JO" alpha3="JOR" number="400">
+	<code_entry name="KAZAKHSTAN" alpha2="KZ" alpha3="KAZ" number="398">
+	<code_entry name="KENYA" alpha2="KE" alpha3="KEN" number="404">
+	<code_entry name="KIRIBATI" alpha2="KI" alpha3="KIR" number="296">
+	<code_entry name="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" alpha2="KP" alpha3="PRK" number="408">
+	<code_entry name="REPUBLIC OF KOREA" alpha2="KR" alpha3="KOR" number="410">
+	<code_entry name="KUWAIT" alpha2="KW" alpha3="KWT" number="414">
+	<code_entry name="KYRGYZSTAN" alpha2="KG" alpha3="KGZ" number="417">
+	<code_entry name="LAO PEOPLE'S DEMOCRATIC REPUBLIC" alpha2="LA" alpha3="LAO" number="418">
+	<code_entry name="LATVIA" alpha2="LV" alpha3="LVA" number="428">
+	<code_entry name="LEBANON" alpha2="LB" alpha3="LBN" number="422">
+	<code_entry name="LESOTHO" alpha2="LS" alpha3="LSO" number="426">
+	<code_entry name="LIBERIA" alpha2="LR" alpha3="LBR" number="430">
+	<code_entry name="LIBYAN ARAB JAMAHIRIYA" alpha2="LY" alpha3="LBY" number="434">
+	<code_entry name="LIECHTENSTEIN" alpha2="LI" alpha3="LIE" number="438">
+	<code_entry name="LITHUANIA" alpha2="LT" alpha3="LTU" number="440">
+	<code_entry name="LUXEMBOURG" alpha2="LU" alpha3="LUX" number="442">
+	<code_entry name="MACAU" alpha2="MO" alpha3="MAC" number="446">
+	<code_entry name="THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA" alpha2="MK" alpha3="MKD" number="807">
+	<code_entry name="MADAGASCAR" alpha2="MG" alpha3="MDG" number="450">
+	<code_entry name="MALAWI" alpha2="MW" alpha3="MWI" number="454">
+	<code_entry name="MALAYSIA" alpha2="MY" alpha3="MYS" number="458">
+	<code_entry name="MALDIVES" alpha2="MV" alpha3="MDV" number="462">
+	<code_entry name="MALI" alpha2="ML" alpha3="MLI" number="466">
+	<code_entry name="MALTA" alpha2="MT" alpha3="MLT" number="470">
+	<code_entry name="MARSHALL ISLANDS" alpha2="MH" alpha3="MHL" number="584">
+	<code_entry name="MARTINIQUE" alpha2="MQ" alpha3="MTQ" number="474">
+	<code_entry name="MAURITANIA" alpha2="MR" alpha3="MRT" number="478">
+	<code_entry name="MAURITIUS" alpha2="MU" alpha3="MUS" number="480">
+	<code_entry name="MAYOTTE" alpha2="YT" alpha3="MYT" number="175">
+	<code_entry name="MEXICO" alpha2="MX" alpha3="MEX" number="484">
+	<code_entry name="FEDERATED STATES OF MICRONESIA" alpha2="FM" alpha3="FSM" number="583">
+	<code_entry name="REPUBLIC OF MOLDOVA" alpha2="MD" alpha3="MDA" number="498">
+	<code_entry name="MONACO" alpha2="MC" alpha3="MCO" number="492">
+	<code_entry name="MONGOLIA" alpha2="MN" alpha3="MNG" number="496">
+	<code_entry name="MONTSERRAT" alpha2="MS" alpha3="MSR" number="500">
+	<code_entry name="MOROCCO" alpha2="MA" alpha3="MAR" number="504">
+	<code_entry name="MOZAMBIQUE" alpha2="MZ" alpha3="MOZ" number="508">
+	<code_entry name="MYANMAR" alpha2="MM" alpha3="MMR" number="104">
+	<code_entry name="NAMIBIA" alpha2="NA" alpha3="NAM" number="516">
+	<code_entry name="NAURU" alpha2="NR" alpha3="NRU" number="520">
+	<code_entry name="NEPAL" alpha2="NP" alpha3="NPL" number="524">
+	<code_entry name="NETHERLANDS" alpha2="NL" alpha3="NLD" number="528">
+	<code_entry name="NETHERLANDS ANTILLES" alpha2="AN" alpha3="ANT" number="530">
+	<code_entry name="NEW CALEDONIA" alpha2="NC" alpha3="NCL" number="540">
+	<code_entry name="NEW ZEALAND" alpha2="NZ" alpha3="NZL" number="554">
+	<code_entry name="NICARAGUA" alpha2="NI" alpha3="NIC" number="558">
+	<code_entry name="NIGER" alpha2="NE" alpha3="NER" number="562">
+	<code_entry name="NIGERIA" alpha2="NG" alpha3="NGA" number="566">
+	<code_entry name="NIUE" alpha2="NU" alpha3="NIU" number="570">
+	<code_entry name="NORFOLK ISLAND" alpha2="NF" alpha3="NFK" number="574">
+	<code_entry name="NORTHERN MARIANA ISLANDS" alpha2="MP" alpha3="MNP" number="580">
+	<code_entry name="NORWAY" alpha2="NO" alpha3="NOR" number="578">
+	<code_entry name="OMAN" alpha2="OM" alpha3="OMN" number="512">
+	<code_entry name="PAKISTAN" alpha2="PK" alpha3="PAK" number="586">
+	<code_entry name="PALAU" alpha2="PW" alpha3="PLW" number="585">
+	<code_entry name="PALESTINIAN TERRITORY" alpha2="PS" alpha3="PSE" number="275">
+	<code_entry name="PANAMA" alpha2="PA" alpha3="PAN" number="591">
+	<code_entry name="PAPUA NEW GUINEA" alpha2="PG" alpha3="PNG" number="598">
+	<code_entry name="PARAGUAY" alpha2="PY" alpha3="PRY" number="600">
+	<code_entry name="PERU" alpha2="PE" alpha3="PER" number="604">
+	<code_entry name="PHILIPPINES" alpha2="PH" alpha3="PHL" number="608">
+	<code_entry name="PITCAIRN" alpha2="PN" alpha3="PCN" number="612">
+	<code_entry name="POLAND" alpha2="PL" alpha3="POL" number="616">
+	<code_entry name="PORTUGAL" alpha2="PT" alpha3="PRT" number="620">
+	<code_entry name="PUERTO RICO" alpha2="PR" alpha3="PRI" number="630">
+	<code_entry name="QATAR" alpha2="QA" alpha3="QAT" number="634">
+	<code_entry name="REUNION" alpha2="RE" alpha3="REU" number="638">
+	<code_entry name="ROMANIA" alpha2="RO" alpha3="ROU" number="642">
+	<code_entry name="RUSSIAN FEDERATION" alpha2="RU" alpha3="RUS" number="643">
+	<code_entry name="RWANDA" alpha2="RW" alpha3="RWA" number="646">
+	<code_entry name="SAINT HELENA" alpha2="SH" alpha3="SHN" number="654">
+	<code_entry name="SAINT KITTS AND NEVIS" alpha2="KN" alpha3="KNA" number="659">
+	<code_entry name="SAINT LUCIA" alpha2="LC" alpha3="LCA" number="662">
+	<code_entry name="SAINT PIERRE AND MIQUELON" alpha2="PM" alpha3="SPM" number="666">
+	<code_entry name="SAINT VINCENT AND THE GRENADINES" alpha2="VC" alpha3="VCT" number="670">
+	<code_entry name="SAMOA" alpha2="WS" alpha3="WSM" number="882">
+	<code_entry name="SAN MARINO" alpha2="SM" alpha3="SMR" number="674">
+	<code_entry name="SAO TOME AND PRINCIPE" alpha2="ST" alpha3="STP" number="678">
+	<code_entry name="SAUDI ARABIA" alpha2="SA" alpha3="SAU" number="682">
+	<code_entry name="SENEGAL" alpha2="SN" alpha3="SEN" number="686">
+	<code_entry name="SERBIA AND MONTENEGRO" alpha2="CS" alpha3="SCG" number="891">
+	<code_entry name="SEYCHELLES" alpha2="SC" alpha3="SYC" number="690">
+	<code_entry name="SIERRA LEONE" alpha2="SL" alpha3="SLE" number="694">
+	<code_entry name="SINGAPORE" alpha2="SG" alpha3="SGP" number="702">
+	<code_entry name="SLOVAKIA" alpha2="SK" alpha3="SVK" number="703">
+	<code_entry name="SLOVENIA" alpha2="SI" alpha3="SVN" number="705">
+	<code_entry name="SOLOMON ISLANDS" alpha2="SB" alpha3="SLB" number="90">
+	<code_entry name="SOMALIA" alpha2="SO" alpha3="SOM" number="706">
+	<code_entry name="SOUTH AFRICA" alpha2="ZA" alpha3="ZAF" number="710">
+	<code_entry name="SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS" alpha2="GS" alpha3="SGS" number="239">
+	<code_entry name="SPAIN" alpha2="ES" alpha3="ESP" number="724">
+	<code_entry name="SRI LANKA" alpha2="LK" alpha3="LKA" number="144">
+	<code_entry name="SUDAN" alpha2="SD" alpha3="SDN" number="736">
+	<code_entry name="SURINAME" alpha2="SR" alpha3="SUR" number="740">
+	<code_entry name="SVALBARD AND JAN MAYEN ISLANDS" alpha2="SJ" alpha3="SJM" number="744">
+	<code_entry name="SWAZILAND" alpha2="SZ" alpha3="SWZ" number="748">
+	<code_entry name="SWEDEN" alpha2="SE" alpha3="SWE" number="752">
+	<code_entry name="SWITZERLAND" alpha2="CH" alpha3="CHE" number="756">
+	<code_entry name="SYRIAN ARAB REPUBLIC" alpha2="SY" alpha3="SYR" number="760">
+	<code_entry name="TAIWAN" alpha2="TW" alpha3="TWN" number="158">
+	<code_entry name="TAJIKISTAN" alpha2="TJ" alpha3="TJK" number="762">
+	<code_entry name="UNITED REPUBLIC OF TANZANIA" alpha2="TZ" alpha3="TZA" number="834">
+	<code_entry name="THAILAND" alpha2="TH" alpha3="THA" number="764">
+	<code_entry name="TIMOR-LESTE" alpha2="TL" alpha3="TLS" number="626">
+	<code_entry name="TOGO" alpha2="TG" alpha3="TGO" number="768">
+	<code_entry name="TOKELAU" alpha2="TK" alpha3="TKL" number="772">
+	<code_entry name="TONGA" alpha2="TO" alpha3="TON" number="776">
+	<code_entry name="TRINIDAD AND TOBAGO" alpha2="TT" alpha3="TTO" number="780">
+	<code_entry name="TUNISIA" alpha2="TN" alpha3="TUN" number="788">
+	<code_entry name="TURKEY" alpha2="TR" alpha3="TUR" number="792">
+	<code_entry name="TURKMENISTAN" alpha2="TM" alpha3="TKM" number="795">
+	<code_entry name="TURKS AND CAICOS ISLANDS" alpha2="TC" alpha3="TCA" number="796">
+	<code_entry name="TUVALU" alpha2="TV" alpha3="TUV" number="798">
+	<code_entry name="UGANDA" alpha2="UG" alpha3="UGA" number="800">
+	<code_entry name="UKRAINE" alpha2="UA" alpha3="UKR" number="804">
+	<code_entry name="UNITED ARAB EMIRATES" alpha2="AE" alpha3="ARE" number="784">
+	<code_entry name="UNITED KINGDOM" alpha2="GB" alpha3="GBR" number="826">
+	<code_entry name="UNITED STATES" alpha2="US" alpha3="USA" number="840">
+	<code_entry name="UNITED STATES MINOR OUTLYING ISLANDS" alpha2="UM" alpha3="UMI" number="581">
+	<code_entry name="URUGUAY" alpha2="UY" alpha3="URY" number="858">
+	<code_entry name="UZBEKISTAN" alpha2="UZ" alpha3="UZB" number="860">
+	<code_entry name="VANUATU" alpha2="VU" alpha3="VUT" number="548">
+	<code_entry name="VATICAN CITY STATE (HOLY SEE)" alpha2="VA" alpha3="VAT" number="336">
+	<code_entry name="VENEZUELA" alpha2="VE" alpha3="VEN" number="862">
+	<code_entry name="VIET NAM" alpha2="VN" alpha3="VNM" number="704">
+	<code_entry name="VIRGIN ISLANDS (BRITISH)" alpha2="VG" alpha3="VGB" number="92">
+	<code_entry name="VIRGIN ISLANDS (U.S.)" alpha2="VI" alpha3="VIR" number="850">
+	<code_entry name="WALLIS AND FUTUNA ISLANDS" alpha2="WF" alpha3="WLF" number="876">
+	<code_entry name="WESTERN SAHARA" alpha2="EH" alpha3="ESH" number="732">
+	<code_entry name="YEMEN" alpha2="YE" alpha3="YEM" number="887">
+	<code_entry name="ZAMBIA" alpha2="ZM" alpha3="ZMB" number="894">
+	<code_entry name="ZIMBABWE" alpha2="ZW" alpha3="ZWE" number="716">
+</iso_codes>
