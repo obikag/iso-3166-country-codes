@@ -16,15 +16,20 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
+ * <p>This program parses the public available ISO3166 XML document and creates a XML and JSON documents, as
+ * well as SQL Script for inserting the contents into a database.</p>
  * 
+ *<p><strong>Ant build file: </strong><em>build.xml</em></p>
+ *<p><strong>Usage: </strong><em>java -jar iso3166dl.jar&nbsp;&nbsp;</em><strong>&nbsp;OR&nbsp;</strong><em>&nbsp;&nbsp;java -cp main.ListDownloader iso3166dl.jar</em></p>
+ *
  * @author Obika Gellineau
  * @since 2013-06-05
- *
  */
 public class ListDownloader {
 	
 	/**
-	 * @param args
+	 * Main Method
+	 * @param args Command Line Arguments
 	 */
 	public static void main(String[] args) {
 		URL url;

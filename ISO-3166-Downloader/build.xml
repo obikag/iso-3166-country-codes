@@ -2,16 +2,19 @@
 <project name="ISO-3166-Downloader" default="main" basedir=".">
 	<property name="src.dir" location="src" />
 	<property name="build.dir" location="build" />
+	<property name="docs.dir" location="docs" />
 	<property name="dist.dir" location="dist" />
 
 	<target name="clean">
 		<delete dir="${build.dir}" />
 		<delete dir="${dist.dir}" />
+		<delete dir="${docs.dir}" />
 	</target>
 	
 	<target name="makedir">
 		<mkdir dir="${build.dir}" />
 		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${docs.dir}" />
 	</target>
 
 	<target name="compile" depends="clean, makedir">
@@ -26,9 +29,18 @@
 			</manifest>
 		</jar>
 		<copy file="siteurl.properties" tofile="${dist.dir}/siteurl.properties"/>
+		<copy file="LICENSE.txt" tofile="${dist.dir}/LICENSE"/>
 	</target>
 	
-	<target name="main" depends="compile, jar">
+	<target name="docs" depends="compile">
+    	<javadoc packagenames="src" sourcepath="${src.dir}" destdir="${docs.dir}">
+       		<fileset dir="${src.dir}">
+            	<include name="**" />
+           	</fileset>
+    	</javadoc>
+  	</target>
+  
+	<target name="main" depends="compile, jar, docs">
 		<description>Main target</description>
 	</target>
 </project>

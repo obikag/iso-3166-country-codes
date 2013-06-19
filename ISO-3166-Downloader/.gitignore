@@ -2,3 +2,7 @@
 .project
 .settings
 bin
+*.json
+*.csv
+*.yaml
+*.xml
