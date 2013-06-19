@@ -1,9 +1,8 @@
 .classpath
 .project
 .settings
-bin
 *.json
 *.csv
 *.yaml
-*.xml
 *.sql
+bin

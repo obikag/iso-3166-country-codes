@@ -16,7 +16,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- * <p>This program parses the public available ISO3166 XML document and creates a XML and JSON documents, as
+ * <p>This program parses the public available ISO3166 XML document and creates a CSV and JSON documents, as
  * well as SQL Script for inserting the contents into a database.</p>
  * 
  *<p><strong>Ant build file: </strong><em>build.xml</em></p>
