@@ -103,7 +103,7 @@ public class ListDownloader {
 		BufferedWriter sql_bw = new BufferedWriter(new OutputStreamWriter(sql_fos));
 		sql_bw.write("CREATE TABLE iso_codes(\r\n");
 		sql_bw.write("\tid INT NOT NULL AUTO_INCREMENT,\r\n");
-		sql_bw.write("\tname VARCHAR(50) NOT NULL,\r\n");
+		sql_bw.write("\tname VARCHAR(75) NOT NULL,\r\n");
 		sql_bw.write("\talpha2 VARCHAR(2) NOT NULL,\r\n");
 		sql_bw.write("\tCONSTRAINT pk_ISOCODES PRIMARY KEY(id)\r\n");
 		sql_bw.write(");\r\n\r\n");
