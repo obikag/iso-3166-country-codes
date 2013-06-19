@@ -1,7 +1,7 @@
 {
 	"listname" : "ISO 3166-1 Country Code List",
 	"created" : "2013-05-28",
-	"modified" : "2013-05-28",
+	"modified" : "2013-06-18",
 	"iso-codes" : [
 		{"name" : "AALAND ISLANDS" , "alpha2" : "AX" , "alpha3" : "ALA" , "number" : 248} , 
 		{"name" : "AFGHANISTAN" , "alpha2" : "AF" , "alpha3" : "AFG" , "number" : 4} , 
