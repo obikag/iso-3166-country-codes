@@ -6,7 +6,6 @@ CREATE TABLE iso_codes(
 	nbr INT NOT NULL,
 	CONSTRAINT pk_ISOCODES PRIMARY KEY(id)
 );
-
 INSERT INTO iso_codes(name,alpha2,alpha3,nbr) VALUES ('AALAND ISLANDS','AX','ALA',248);
 INSERT INTO iso_codes(name,alpha2,alpha3,nbr) VALUES ('AFGHANISTAN','AF','AFG',4);
 INSERT INTO iso_codes(name,alpha2,alpha3,nbr) VALUES ('ALBANIA','AL','ALB',8);
