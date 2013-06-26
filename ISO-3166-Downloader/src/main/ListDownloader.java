@@ -3,6 +3,8 @@ package main;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
@@ -16,11 +18,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- * <p>This program parses the public available ISO3166 XML document and creates a CSV and JSON documents, as
+ * <p>This program parses the public available ISO3166 XML document and creates a CSV, YAML and JSON documents, as
  * well as SQL Script for inserting the contents into a database.</p>
  * 
  *<p><strong>Ant build file: </strong><em>build.xml</em></p>
- *<p><strong>Usage: </strong><em>java -jar iso3166dl.jar&nbsp;&nbsp;</em><strong>&nbsp;OR&nbsp;</strong><em>&nbsp;&nbsp;java -cp main.ListDownloader iso3166dl.jar</em></p>
+ *<p><strong>Usage: </strong><em>java -jar iso3166dl.jar&nbsp;&nbsp;</em><strong>&nbsp;OR&nbsp;</strong>
+ *<em>&nbsp;&nbsp;java -cp iso3166dl.jar main.ListDownloader</em></p>
  *
  * @author Obika Gellineau
  * @since 2013-06-05
@@ -38,6 +41,7 @@ public class ListDownloader {
 		List<CountryCodes> clist = new LinkedList<CountryCodes>();
 		
 		try{
+			//Load Properties file
 			siteurl.load(new FileInputStream("siteurl.properties"));
 			url = new URL(siteurl.getProperty("xmlsite"));
 			inStream = url.openStream();
@@ -59,12 +63,17 @@ public class ListDownloader {
 										getTagValue(siteurl.getProperty("alpha2element"), eElement)));
 				}
 			}
-			String path = siteurl.getProperty("outpath"); 
+			String path = siteurl.getProperty("outpath");
+			//place Output files in app directory if outpath property is null
 			if(path.equals("null")) path = "."+File.separator;
+			//Write to SQL File
 			toSQL(clist,path);
+			//Write to JSON File
 			toJSON(clist,path);
+			//Write to CSV File
 			toCSV(clist,path);
-			System.out.println("Completed");
+			//Write to YAML File
+			toYAML(clist,path,siteurl.getProperty("xmlsite"));
 		} catch (MalformedURLException mue) {
 	         mue.printStackTrace();
 	    } catch (IOException ioe) {
@@ -77,6 +86,7 @@ public class ListDownloader {
 	        try {
 	            inStream.close();
 	        } catch (IOException ioe) {}
+	        System.out.println("Completed");
 	    }
 
 
@@ -99,9 +109,10 @@ public class ListDownloader {
 	}
 	
 	/**
-	 * 
-	 * @param list
-	 * @throws IOException
+	 * Method used to create SQL File
+	 * @param list Country code Linked List
+	 * @param path Output path of the file
+	 * @throws IOException Input/Output File Exception thrown
 	 */
 	private static void toSQL(List<CountryCodes> list, String path) throws IOException{
 		FileOutputStream sql_fos = new FileOutputStream(new File(path+"iso3166.sql"));
@@ -120,12 +131,14 @@ public class ListDownloader {
 	}
 	
 	/**
-	 * 
-	 * @param list
-	 * @throws IOException
+	 * Method used to create JSON File. 
+	 * Written as a JSON Array for easy insertion into MongoDB
+	 * @param list Country Code Linked List
+	 * @param path Output path of the file 
+	 * @throws IOException Input/Output File Exception thrown
 	 */
 	private static void toJSON(List<CountryCodes> list, String path) throws IOException{
-		FileOutputStream jsonmin_fos = new FileOutputStream(new File("iso3166.json"));
+		FileOutputStream jsonmin_fos = new FileOutputStream(new File(path+"iso3166.json"));
 		BufferedWriter jsonmin_bw = new BufferedWriter(new OutputStreamWriter(jsonmin_fos));
 		jsonmin_bw.write("[");
 		StringBuffer sb = new StringBuffer();
@@ -139,17 +152,36 @@ public class ListDownloader {
 	}
 	
 	/**
-	 * 
-	 * @param list
-	 * @throws IOException
+	 * Method used to create CSV File
+	 * @param list Country code Linked List
+	 * @param path Output path of the file
+	 * @throws IOException Input/Output File Exception thrown
 	 */
 	private static void toCSV(List<CountryCodes> list, String path) throws IOException{
-		FileOutputStream csv_fos = new FileOutputStream(new File("iso3166.csv"));
+		FileOutputStream csv_fos = new FileOutputStream(new File(path+"iso3166.csv"));
 		BufferedWriter csv_bw = new BufferedWriter(new OutputStreamWriter(csv_fos));
 		csv_bw.write("COUNTRY,ALPHA-2\r\n");
 		for(CountryCodes c: list){
 			csv_bw.write("\""+c.getName().toUpperCase().trim()+"\","+c.getAlpha2().trim()+"\r\n");
 		}
 		csv_bw.close();
+	}
+	
+	/**
+	 * Method used to create YAML File
+	 * @param list
+	 * @param path Output path of the file
+	 * @throws IOException Input/Output File Exception thrown
+	 */
+	private static void toYAML(List<CountryCodes> list, String path, String header) throws IOException {
+		FileOutputStream yaml_fos = new FileOutputStream(new File(path+"iso3166.yaml"));
+		BufferedWriter yaml_bw = new BufferedWriter(new OutputStreamWriter(yaml_fos));
+		Date now = new Date();
+		yaml_bw.write("--- "+header+"\r\nlistname : ISO 3166 Country Code List\r\ncreated : "+(new SimpleDateFormat("yyyy-MM-dd")).format(now)+"\r\niso-codes : \r\n");
+		for(CountryCodes c: list){
+			yaml_bw.write("\t- name : "+c.getName()+"\r\n");
+			yaml_bw.write("\t  alpha2 : "+c.getAlpha2()+"\r\n");
+		}
+		yaml_bw.close();
 	}
 }
