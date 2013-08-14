@@ -174,13 +174,13 @@ public class ListDownloader {
 	 * @throws IOException Input/Output File Exception thrown
 	 */
 	private static void toYAML(List<CountryCodes> list, String path, String header) throws IOException {
-		FileOutputStream yaml_fos = new FileOutputStream(new File(path+"iso3166.yaml"));
+		FileOutputStream yaml_fos = new FileOutputStream(new File(path+"iso3166.yml"));
 		BufferedWriter yaml_bw = new BufferedWriter(new OutputStreamWriter(yaml_fos));
 		Date now = new Date();
-		yaml_bw.write("--- "+header+"\r\nlistname : ISO 3166 Country Code List\r\ncreated : "+(new SimpleDateFormat("yyyy-MM-dd")).format(now)+"\r\niso-codes : \r\n");
+		yaml_bw.write("--- "+header+"\r\nlistname: ISO 3166 Country Code List\r\ncreated: "+(new SimpleDateFormat("yyyy-MM-dd")).format(now)+"\r\niso-codes: \r\n");
 		for(CountryCodes c: list){
-			yaml_bw.write("\t- name : "+c.getName()+"\r\n");
-			yaml_bw.write("\t  alpha2 : "+c.getAlpha2()+"\r\n");
+			yaml_bw.write("  - name: "+c.getName()+"\r\n");
+			yaml_bw.write("    alpha2: "+c.getAlpha2()+"\r\n");
 		}
 		yaml_bw.close();
 	}

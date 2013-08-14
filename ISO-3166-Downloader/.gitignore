@@ -3,6 +3,6 @@
 .settings
 *.json
 *.csv
-*.yaml
+*.yml
 *.sql
 bin
